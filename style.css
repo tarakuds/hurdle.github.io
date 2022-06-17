@@ -202,3 +202,149 @@ footer p{
     height: 50vh;
 }
 
+@media (min-width:375px) and (max-width:425px){
+
+    main{
+    background: url('images/bg-hero-mobile.svg') hsl(193, 100%, 96%);
+    height: 150vh;
+}
+
+header{
+    justify-content: space-between;
+    height: 80px;
+    width: 100vw;
+}
+ header div{
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+ }
+.logo{
+    height: 25px; 
+}
+.contents{
+    display: block;
+    text-align: center;
+}
+
+.item-left{
+    padding: 4% 0;
+    padding-right: 0%;
+    width: 100%;
+    height: 60vh;
+}
+.item-right{
+    width: 100%;
+    height: 60vh;
+}
+
+.item-right img{
+    width: 100%;
+    height: 400px;
+}
+
+section{
+    padding-bottom:7%;
+}
+
+.cards{
+    height: 50%;
+    width: 100%;
+    margin: 40px 0;
+    padding: 2%;
+    display:block;
+}
+
+.card-img{
+    width:100%;
+    padding: 3%;
+}
+
+.card-img img{
+    float:  none;
+    text-align: center;
+    width: 100%;
+    height: 70%;
+    padding: 0%;
+}
+
+.card-body{
+    width: 100%;
+    text-align: center;
+    padding: 3%;
+}
+
+.float-card{
+        width: 90%;
+        height: 27vh;
+        position: relative;
+        bottom: -50px;
+        margin: auto;
+        padding: 3% 3%;
+        z-index:1;
+        font-size: 10px;
+}
+
+.float-card button{
+    margin-top: 0;
+    width: 70%;
+}
+
+footer{
+    width: 100%;
+    height: 60vh;
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    color: #fff;
+    padding:7% 2% 5% 7%;
+}
+
+footer a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+i{
+    padding: 7px;
+    width: 30px;
+    height: 30px;
+    border:1px solid #fff;
+    border-radius: 50%;
+    margin: 0 2%;
+}
+footer p{
+    margin-top: 20%;
+}
+
+.icon img{
+    margin-right: 10%;
+}
+.item1{
+    width: 35%;
+    display: table;
+}
+.icon{
+    display: table-row-group;
+}
+/* .icon img, .icon span{
+    display: table-column-group;
+} */
+.item1,.item2, .item3{
+    margin-left: 5%;
+}
+.item2, .item3, .item4, .icon{
+    margin-top: 5%;
+}
+
+.item2, .item3{
+    width: 15%;
+}
+
+.item4{
+    width: 35%;
+    height: 50vh;
+}
+
+}
+
